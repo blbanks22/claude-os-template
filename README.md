@@ -62,7 +62,7 @@ knowledge/          Long-form personal knowledge base.
 skills/             Reusable prompts-as-code. Each in its own subdirectory with a SKILL.md.
 ```
 
-## The 17 skills included
+## The 18 skills included
 
 Each is invoked via `/<name>` or a natural-language trigger (see each `SKILL.md` for triggers).
 
@@ -85,6 +85,7 @@ Each is invoked via `/<name>` or a natural-language trigger (see each `SKILL.md`
 | `directors-brief` | Structure a non-trivial task as Role/Goal/Task/Context/Constraints before delegating. |
 | `synthesize-articles` | Process a batch of article URLs into a three-bucket knowledge base format. |
 | `session-handoff` | Generate a paste-able handoff doc so a new session resumes with zero ramp. |
+| `video-insights` | Extract a transcript from a video URL (YouTube etc.) and produce a structured insight summary. |
 
 ## The four memory types
 
